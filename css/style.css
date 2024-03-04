@@ -5,11 +5,25 @@
 
 body {
   background-color: #fff1e0;
-  color: #000000
+  color: #000000;
   }
 
-h1 {
-  background-color: #9d8080;
+.demo-layout-transparent {
+  background: url("") center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: black;
+}
+
+.mdl-navigation__link { 
+  color: black; 
+}
+
+h2 {
+  background-color: #eed5c9;
 }
 
 #kindeybean, #blackbean, #pintobean {
@@ -17,7 +31,7 @@ h1 {
 }
 
 #beanimages {
-  background-color: #e1dbdb;
+  background-color: #eed5c9;
   margin-left: 0.5in;
   margin-right: 0.5in;
   text-align: center;
