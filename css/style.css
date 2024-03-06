@@ -1,53 +1,14 @@
-/* Created by: Niko (original author: Ms. Raffin)
- * Created on: Feb. 2022
- * This CSS file defines the style for index.html 
-*/
+.guide {
+  text-align: center;
+  list-style-position: inside;
+}
 
 body {
   background-color: #fff1e0;
-  color: #000000;
   }
 
-.demo-layout-transparent {
-  background: url("") center / cover;
-}
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
-  /* This background is dark, so we set text to white. Use 87% black instead if
-     your background is light. */
-  color: black;
+.mdl-layout-title {
+  color: #000000;
+
 }
 
-.mdl-navigation__link { 
-  color: black; 
-}
-
-h2 {
-  background-color: #eed5c9;
-}
-
-#kindeybean, #blackbean, #pintobean {
-  text-align: center;
-}
-
-#beanimages {
-  background-color: #eed5c9;
-  margin-left: 0.5in;
-  margin-right: 0.5in;
-  text-align: center;
-}
-
-img {
-  display: inline-block;
-}
-
-p {
-  width: 400px;
-  background-color: peachpuff;
-}
-
-ol {
-  background-color: peachpuff;
-  margin-left: 0.5in;
-  margin-right: 0.5in;
-}
