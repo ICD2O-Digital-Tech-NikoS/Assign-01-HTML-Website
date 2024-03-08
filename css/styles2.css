@@ -1,3 +1,12 @@
+/* Created by: Niko
+ * Created on: March. 2022
+ * This CSS file defines the style for index2.html 
+*/
+
+html {
+  background-color: #b1b483;
+}
+
 .multiplechoice {
   margin-left: 0.5in;
 }
@@ -8,8 +17,14 @@
 
 h1 {
   margin-left: 0.5in;
+  background-color: #b5d095;
+  color: hsl(0, 100%, 50%);
 }
 
 p {
   margin-left: 0.5in;
+}
+
+#linkcolor {
+  color: #f2fe4d;
 }

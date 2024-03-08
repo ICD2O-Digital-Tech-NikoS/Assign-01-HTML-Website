@@ -1,0 +1,23 @@
+/* Created by: Niko
+ * Created on: March. 2022
+ * This CSS file defines the style for index.html 
+*/
+
+html {
+  background-color: #919191;
+}
+
+.mdl-layout-title {
+  color: #000000;
+  background-color: #bf5c3b;
+}
+
+ol {
+  text-align: center;
+  list-style-position: inside;
+}
+
+#coloredtextbean {
+  color: #ffd06b;
+  background-color: #683e37;
+}
